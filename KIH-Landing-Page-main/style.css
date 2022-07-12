@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --hero-bg-color: rgb(29, 158, 235);
+  --light-blue: rgb(62, 169, 255);
+  --yellow: rgb(225, 215, 64);
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0rem auto;
+  color: white;
+  background-image: url(./Img/boy.bg.png);
+  padding: 10rem 10rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container h1 {
+  padding-top: 2.5rem;
+  font-weight: 800;
+  font-size: 50px;
+}
+.container h3 {
+  padding-top: 1rem;
+}
+.container h4 {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+footer {
+  margin-top: 7rem;
+}
+footer h1 {
+  margin-bottom: 4rem;
+}
+.logos img {
+  height: 5rem;
+}
+.logos {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 120rem;
+  margin: 0 auto;
+  color: white;
+  padding: 0 2.5rem;
+}
+.base img {
+  height: 10%;
+  width: 100%;
+  margin-top: -20rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 900px) {
+  .container h1 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .container {
+    padding: 3rem 3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .logos {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .base img {
+    margin-top: -10rem;
+  }
+  .container {
+    padding: 1rem;
+  }
+  .container h1 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .container h3 {
+    padding-top: -5rem;
+    width: 15rem;
+  }
+  .container h4 {
+    padding: -2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .base img {
+    margin-top: -10rem;
+  }
+  .container {
+    padding: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container h1 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .container h3 {
+    padding-top: -5rem;
+    width: 15rem;
+  }
+  .container h4 {
+    padding: -2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .base img {
+    margin-top: -10rem;
+  }
+  .container {
+    padding: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container h1 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .container h3 {
+    padding-top: -5rem;
+    width: 15rem;
+  }
+  .container h4 {
+    padding: -2rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .container h1 {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .container h3 {
+    width: 12rem;
+  }
+  .logos {
+    gap: 4rem;
+    margin-bottom: 5rem;
+    text-align: left;
+  }
+  .container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url(./Img/mobile.bg.png);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container h1 {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .container h3 {
+    width: 12rem;
+  }
+  .logos {
+    gap: 4rem;
+    margin-bottom: 5rem;
+    text-align: left;
+  }
+  .container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url(./Img/mobile.bg.png);
+  }
+}

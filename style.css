@@ -1,0 +1,573 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+font-family: 'Raleway', sans-serif;
+}
+
+ .cover{
+    background-image: url('/image/background3.png');
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    /* transform: translateY(-6%); */
+    height: 10% ;
+    position: relative;
+    width: 100%;
+    top: 0%;
+    background-size: cover;
+
+
+
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    margin-bottom: 0%;
+    /* background-color:#5d4954 ; */
+    /* left: 0%; */
+    /* right: 0%; */
+    width: 100%;
+    transition: 1.6s;
+    z-index: 100000;
+    
+}
+.sticky{
+    top: 0;
+    padding: 6px 50px;
+    background-color: rgb(62, 169, 255);
+}
+nav ul {
+    position: relative;
+}
+
+.logo img{
+    width: 60%;
+    margin-top: 8%;
+    position: relative;
+    margin-left: 3%;
+    transition: 1.6s; 
+
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    position: relative;
+}
+
+.nav-link li{ 
+    list-style: none;
+    position: relative;
+    
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px;
+    position: relative;
+    transition: 1.6s; 
+
+}
+.nav-link a:hover{
+    font-size: 15px;
+    transition: 0.6s;
+}
+
+
+/* burger section */
+
+.burger{
+    display: none;
+}
+.burger div{
+    background-color: wheat;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    cursor: pointer 0.5;
+    transition: all 0.5s ease-in;
+
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 13%;
+    color: white;
+  
+
+}
+.left-section h3{
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+    width: 100%;
+    padding-left: 12%;
+
+}
+
+.left-section h2{
+   
+    letter-spacing: 3px;
+    width: 100%;
+    font-size: 50px;
+    padding-left: 12%;
+
+}
+.btn{
+    width: 100%;
+    padding-left: 12%;
+    margin-top: 17%;
+}
+.Register{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: gold solid 1px;
+    background-color: rgb(62, 169, 255);
+    color: white;
+    width: 20%;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.Register:hover{
+    color:rgb(62, 169, 255);
+    background-color: white;
+    transition: 1.6s;
+
+}
+.btn button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: gold solid 1px;
+    background-color: rgb(62, 169, 255);
+    color: white;
+    width: 30%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    color:rgb(62, 169, 255);
+    background-color: white;
+    transition: 1.6s;
+}
+
+
+
+span{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: gold solid 1px;
+    background-color: rgb(62, 169, 255);
+    color: white;
+    width: 30%;
+    margin: 5px;
+}
+/* our work  */
+
+section {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 40px;
+  }
+  
+  section .Img {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  section .Img h2 {
+    font-size: 18px;
+  }
+  
+ 
+  
+  
+  
+  
+  .Img img {
+    margin-top: 4rem;
+    width: 70%;
+  }
+  
+  .section_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  .section_2 .pics img {
+    width: 100%;
+    
+  }
+  
+  .section_2 p {
+    width: 50%;
+    font-size: 20px;
+    padding-left: 2rem;
+    padding-right: 10rem;
+    border-radius: 7rem;
+    box-shadow: 1rem solid black;
+  }
+
+
+  /* footer section keny */
+  .container {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0rem auto;
+    color: white;
+    background-image: url(./Img/boy.bg.png);
+    padding: 10rem 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container h1 {
+    padding-top: 2.5rem;
+    font-weight: 800;
+    font-size: 50px;
+  }
+  .container h3 {
+    padding-top: 1rem;
+  }
+  .container h4 {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer {
+    margin-top: 7rem;
+  }
+  footer h1 {
+    margin-bottom: 4rem;
+  }
+  .logos img {
+    height: 5rem;
+  }
+  .logos {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 120rem;
+    margin: 0 auto;
+    color: white;
+    padding: 0 2.5rem;
+  }
+  .base img {
+    height: 10%;
+    width: 100%;
+    margin-top: -20rem;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 25px;
+  }
+
+
+/* medial quary section */
+
+@media screen and (max-width:1024px){
+    .nav-link{
+        width: 50%;
+    }
+
+}
+
+/* kenny work */
+@media screen and (max-width: 900px) {
+    .container h1 {
+      font-weight: 400;
+      font-size: 30px;
+    }
+    .container {
+      padding: 3rem 3rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    .logos {
+      margin-bottom: 5rem;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .base img {
+      margin-top: -10rem;
+    }
+    .container {
+      padding: 1rem;
+    }
+    .container h1 {
+      font-weight: 500;
+      font-size: 30px;
+    }
+    .container h3 {
+      padding-top: -5rem;
+      width: 15rem;
+    }
+    .container h4 {
+      padding: -2rem;
+    }
+  }
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+        /* overflow-y: hidden; */
+    }
+    .nav-link{
+        position: absolute;
+        right: 0%;
+        /* left: 0%; */
+        top: 8vh;
+        height: 62vh;
+        border-radius: 6px 6px 0px 6px;
+        background-color: rgb(62, 169, 255);
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        transform: translateX(100%);
+        /* transform: translateX(-100%); */
+        transition: transform 0.5s ease-in;
+    }
+    
+    .nav-link li{
+        opacity:0 ;
+
+    }
+
+    .burger{
+        display: block;
+        padding-right: 9%;
+    }
+/* the class that bring out the nav-link  */
+    .nav-active{
+        transform: translateX(0%);
+    }
+    @keyframes naveLinkFade {
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+
+        }
+        
+    }
+
+
+    .left-section{
+        width: 100%;
+        padding-top: 16%;
+    }
+
+    .left-section h2{
+        font-size: 20px;
+        
+    }
+    .left-section h3{
+        font-size: 15px;
+    }
+
+    .logo img{
+        width: 50%;
+        padding-left: 27px;
+    
+    }
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 10%;
+    }
+
+    .btn button{
+        padding: 10px 20px;
+        width: 50%;
+        font-size: 12px;
+        
+    }
+    span{
+        border: none;
+        padding: 0%;
+        margin: 0%;
+        /* width: 50%; */
+    }
+
+    span a{
+        /* padding: 5px 5px; */
+        border-radius: 20px;
+        border: gold solid 1px;
+        /* background-color: rgb(62, 169, 255); */
+        /* color: white; */
+        /* background-color: red; */
+        width: 50%;
+    }
+    
+
+
+
+
+}
+
+/* kenny work */
+@media screen and (max-width: 600px) {
+    .base img {
+      margin-top: -10rem;
+    }
+    .container {
+      padding: 1rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .container h1 {
+      font-weight: 500;
+      font-size: 30px;
+    }
+    .container h3 {
+      padding-top: -5rem;
+      width: 15rem;
+    }
+    .container h4 {
+      padding: -2rem;
+    }
+  }
+
+  /* kenny work */
+  @media screen and (max-width: 430px) {
+    .container h1 {
+      font-weight: 400;
+      font-size: 25px;
+    }
+    .container h3 {
+      width: 12rem;
+    }
+    .logos {
+      gap: 4rem;
+      margin-bottom: 5rem;
+      text-align: left;
+    }
+    .container {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      background-image: url(./Img/mobile.bg.png);
+    }
+  }
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+
+  } 
+.toggle .line2{ 
+    opacity: 0;
+
+ } 
+.toggle .line3{ 
+    transform: rotate(45deg) translate(-5px,-6px);
+
+ } 
+
+ /* our work  */
+
+ @media screen and (max-width: 375px) {
+    /* section {
+      text-align: block;
+    } */
+    section .Img {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      width: 100%;
+      
+    }
+  
+    section .Img img {
+      width: 100%;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      box-shadow: 30px solid red;
+    }
+    .btn2 h2 {
+      width: 100%;
+      font-size: 40px;
+      margin-left: -4rem;
+    }
+  
+    section h1 {
+      margin-top: 5rem;
+      font-size: 35px;
+    }
+  
+    section .section_2 {
+      flex-direction: column;
+    }
+
+    .Register{
+        padding: 10px 15px;
+    width: 40%;
+    margin: 5px;
+    cursor: pointer;
+    
+    }
+  
+    section .section_2 p {
+      font-size: 16px;
+      width: 100%;
+        margin-top: -16%;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      text-align: left;
+      padding-bottom: 10%;
+    }
+
+    /* kenny work */
+    .container h1 {
+        font-weight: 400;
+        font-size: 25px;
+      }
+      .container h3 {
+        width: 12rem;
+      }
+      .logos {
+        gap: 4rem;
+        margin-bottom: 5rem;
+        text-align: left;
+      }
+      .container {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-image: url(./Img/mobile.bg.png);
+      }
+  }
