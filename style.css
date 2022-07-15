@@ -205,7 +205,7 @@ section {
     align-items: center;
     
   }
-  section .Img img{
+   .Img img{
     border: gold solid 1px;
   }
   
@@ -228,6 +228,8 @@ section {
   .Img img {
     margin-top: 4rem;
     width: 70%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
   }
   
   .section_2 {
@@ -242,14 +244,7 @@ section {
     
   }
   
-  /* .section_2 p {
-    width: 50%;
-    font-size: 20px;
-    padding-left: 2rem;
-    padding-right: 10rem;
-    border-radius: 7rem;
-    box-shadow: 1rem solid black;
-  } */
+  
 
 
   /* footer section keny */
@@ -472,8 +467,267 @@ section {
 
 
 
+
+
+
+/* medial quary section */
+
+@media screen and (max-width:1024px){
+    .nav-link{
+        width: 70%;
+
+    }
+
+}
+@media screen and (max-width:1140px){
+  body{
+      overflow-x: hidden;
+      /* overflow-y: hidden; */
+  }
+
+  .nav-link{
+      position: absolute;
+      right: 0%;
+      /* left: 0%; */
+      top: 8vh;
+      height: 92vh;
+      border-radius: 6px 6px 0px 6px;
+      background-color: rgb(62, 169, 255);
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      overflow-x: hidden;
+      max-width: 375px;
+  }
+  nav{
+    /* width: 520rem; */
+  }
+  
+  .nav-link li{
+      opacity:0 ;
+
+  }
+
+  .burger{
+      display: block;
+      padding-right: 9%;
+  }
+/* the class that bring out the nav-link  */
+  .nav-active{
+      transform: translateX(0%);
+  }
+  @keyframes naveLinkFade {
+      from{
+          opacity: 0;
+          transform: translateX(50px);
+      }
+      to{
+          opacity: 1;
+          transform: translateX(0px);
+
+      }
+      
+  }
+
+
+  .left-section{
+      width: 100%;
+      padding-top: 16%;
+  }
+
+  .left-section h2{
+      font-size: 40px;
+      
+  }
+  .left-section h3{
+      font-size: 30px;
+  }
+
+  .logo img{
+      width: 60%;
+      padding-left: 27px;
+  
+  }
+  .btn{
+      display: flex;
+      align-items: center;
+      /* justify-content: space-bet; */
+      margin-right: 10%;
+  }
+
+  .btn button{
+      padding: 10px 20px;
+      width: 20%;
+      font-size: 12px;
+      
+  }
+  .Img {
+    display: flex;
+    flex-direction: column;
+  }
+  span{
+      border: none;
+      padding: 0%;
+      margin: 0%;
+      /* width: 50%; */
+  }
+
+  span a{
+      /* padding: 5px 5px; */
+      border-radius: 20px;
+      border: gold solid 1px;
+      /* background-color: rgb(62, 169, 255); */
+      /* color: white; */
+      /* background-color: red; */
+      width: 50%;
+  }
+  .logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .logos img{
+    margin-top: 4rem;
+
+  }
+  
+
+
+
+
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+/* kenny work */
+@media screen and (max-width: 900px) {
+
+  .nav-link{
+    width: 20%;
+
+}
+
+  .logo img{
+    margin-left: 1rem
+  }
+
+  .left-section h3{
+    font-size: 60px;
+  }
+  .left-section h2{
+    font-size: 60px;
+  }
+  .btn button{
+    width: 20%;
+    padding: 10px 10px;
+  }
+  .btn2 h2{
+    text-decoration: none;
+    padding-left: 7rem;
+ 
+  }
+  .digital{
+    font-size:20px;
+    /* text-transform: uppercase; */
+  }
+  .Register{
+    font-size: 15px;
+  }
+  .supported{
+    font-size: 30px;
+  }
+  
+  .Img img{
+    border:none;
+    justify-content: space-around;
+    width: 50%;
+
+  }
+
+
+  /* ### */
+    .container h1 {
+      font-weight: 400;
+      font-size: 30px;
+    }
+    .container {
+      padding: 3rem 3rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    .logos {
+      margin-bottom: 5rem;
+    }
+  }
+
+  
 @media (max-width: 800px) {
 
+
+  .logo img{
+    margin-right: 2rem;
+  
+  }
+
+  .left-section h3{
+    font-size: 60px;
+  }
+  .left-section h2{
+    font-size: 60px;
+  }
+  .btn button{
+    width: 20%;
+    padding: 10px 10px;
+  }
+  .btn2 h2{
+    text-decoration: none;
+    padding-left: 7rem;
+ 
+  }
+  .digital{
+    font-size:20px;
+    /* text-transform: uppercase; */
+  }
+  .Register{
+    font-size: 15px;
+  }
+  .supported{
+    font-size: 30px;
+  }
+  
+  .Img img{
+    border:none;
+    justify-content: space-around;
+    width: 50%;
+
+  }
+
+  
 	.footer-distributed{
 		padding: 30px;
 	}
@@ -501,56 +755,9 @@ section {
 		float: none;
 	}
 }
-
-
-
-/* medial quary section */
-
-@media screen and (max-width:1024px){
-    .nav-link{
-        width: 50%;
-    }
-
-}
-@media (max-width: 1000px) {
-
-	.footer-distributed {
-		font: bold 14px sans-serif;
-	}
-
-	.footer-distributed .footer-company-name{
-		font-size: 12px;
-	}
-
-	.footer-distributed form input,
-	.footer-distributed form textarea{
-		width: 250px;
-	}
-
-	.footer-distributed form button{
-		padding: 10px 35px;
-	}
-
-}
-
-/* kenny work */
-@media screen and (max-width: 900px) {
-    .container h1 {
-      font-weight: 400;
-      font-size: 30px;
-    }
-    .container {
-      padding: 3rem 3rem;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 100vh;
-    }
-    .logos {
-      margin-bottom: 5rem;
-    }
-  }
   
   @media screen and (max-width: 800px) {
+    
     .base img {
       margin-top: -10rem;
     }
@@ -570,6 +777,154 @@ section {
     }
   }
 
+  /* our work  */
+
+ @media screen and (max-width: 800px) {
+  /* section {
+    text-align: block;
+  } */
+  section .Img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  section .Img img {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    box-shadow: 30px solid red;
+  }
+  .btn2 h2 {
+    width: 100%;
+    font-size: 40px;
+    margin-left: -4rem;
+  }
+
+  section h1 {
+    margin-top: 5rem;
+    font-size: 35px;
+  }
+
+  section .section_2 {
+    flex-direction: column;
+  }
+
+  .Register{
+      padding: 10px 15px;
+  width: 40%;
+  margin: 5px;
+  cursor: pointer;
+  
+  }
+
+  section .section_2 p {
+    font-size: 16px;
+    width: 100%;
+      margin-top: -16%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+    padding-bottom: 10%;
+  }
+
+  /* kenny work */
+  .container h1 {
+      font-weight: 400;
+      font-size: 25px;
+    }
+    .container h3 {
+      width: 12rem;
+    }
+    .logos {
+      gap: 4rem;
+      margin-bottom: 5rem;
+      text-align: left;
+    }
+    .container {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      background-image: url(./Img/mobile.bg.png);
+    }
+}
+
+@media screen and (max-width: 800px) {
+  /* section {
+    text-align: block;
+  } */
+  section .Img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  section .Img img {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    box-shadow: 30px solid red;
+  }
+  .btn2 h2 {
+    width: 100%;
+    font-size: 40px;
+    margin-left: -4rem;
+  }
+
+  section h1 {
+    margin-top: 5rem;
+    font-size: 35px;
+  }
+
+  section .section_2 {
+    flex-direction: column;
+  }
+
+  .Register{
+      padding: 10px 15px;
+  width: 40%;
+  margin: 5px;
+  cursor: pointer;
+  
+  }
+
+  section .section_2 p {
+    font-size: 16px;
+    width: 100%;
+      margin-top: -16%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+    padding-bottom: 10%;
+  }
+
+  /* kenny work */
+  .container h1 {
+      font-weight: 400;
+      font-size: 25px;
+    }
+    .container h3 {
+      width: 12rem;
+    }
+    .logos {
+      gap: 4rem;
+      margin-bottom: 5rem;
+      text-align: left;
+    }
+    .container {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      background-image: url(./Img/mobile.bg.png);
+    }
+}
+
 @media screen and (max-width:768px){
     body{
         overflow-x: hidden;
@@ -580,15 +935,19 @@ section {
         right: 0%;
         /* left: 0%; */
         top: 8vh;
-        height: 62vh;
+        height: 92vh;
         border-radius: 6px 6px 0px 6px;
         background-color: rgb(62, 169, 255);
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 50%;
         transform: translateX(100%);
-        /* transform: translateX(-100%); */
         transition: transform 0.5s ease-in;
+        overflow-x: hidden;
+        max-width: 375px;
+    }
+    nav{
+      /* width: 520rem; */
     }
     
     .nav-link li{
@@ -697,6 +1056,12 @@ section {
 
   /* kenny work */
   @media screen and (max-width: 430px) {
+    nav{
+      max-width: 375px;
+    }
+    body{
+      /* max-width: 350px; */
+    }
     .container h1 {
       font-weight: 400;
       font-size: 25px;
@@ -732,75 +1097,4 @@ section {
 
  /* our work  */
 
- @media screen and (max-width: 800px) {
-    /* section {
-      text-align: block;
-    } */
-    section .Img {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      flex-direction: column;
-      width: 100%;
-      
-    }
-  
-    section .Img img {
-      width: 100%;
-      padding-right: 2rem;
-      padding-left: 2rem;
-      box-shadow: 30px solid red;
-    }
-    .btn2 h2 {
-      width: 100%;
-      font-size: 40px;
-      margin-left: -4rem;
-    }
-  
-    section h1 {
-      margin-top: 5rem;
-      font-size: 35px;
-    }
-  
-    section .section_2 {
-      flex-direction: column;
-    }
 
-    .Register{
-        padding: 10px 15px;
-    width: 40%;
-    margin: 5px;
-    cursor: pointer;
-    
-    }
-  
-    section .section_2 p {
-      font-size: 16px;
-      width: 100%;
-        margin-top: -16%;
-      padding-left: 2rem;
-      padding-right: 2rem;
-      text-align: left;
-      padding-bottom: 10%;
-    }
-
-    /* kenny work */
-    .container h1 {
-        font-weight: 400;
-        font-size: 25px;
-      }
-      .container h3 {
-        width: 12rem;
-      }
-      .logos {
-        gap: 4rem;
-        margin-bottom: 5rem;
-        text-align: left;
-      }
-      .container {
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
-        background-image: url(./Img/mobile.bg.png);
-      }
-  }
